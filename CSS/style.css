@@ -13,6 +13,7 @@
 body{
     background-color: #674baf;
     color: #fff;
+    background-image: url(../images/bg-desktop.svg);
 }
 .w-10{
     width: 200px;
@@ -36,5 +37,8 @@ body{
     footer{
         text-align: center;
         flex-direction: column-reverse;
+    }
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat;
     }
 }
