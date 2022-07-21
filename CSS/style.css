@@ -1,0 +1,40 @@
+.btn{
+     color: hsl(257, 40%, 49%);
+     background-color: #fff;
+     width: 180px;
+     height: 50px;
+     border: none;
+     box-shadow: 1px 1px 5px 1.1px #000;
+}
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+body{
+    background-color: #674baf;
+    color: #fff;
+}
+.w-10{
+    width: 200px;
+    /* margin-left: 100px; */
+    color: #e882e8;
+}   
+.logo{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e882e8;
+    margin-left: 10px;
+    filter: brightness(0%) invert();
+}
+.logo:hover{
+    filter: brightness(100%) invert(0%);
+}
+@media (max-width: 448px) {
+    main{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+}
